@@ -1,3 +1,3 @@
-# springpractice
+# springpractice by Kammullu Md Ghouse
 
-Practice Spring MVC and Spring Boot
+Practice projects of Spring MVC and Spring Boot
