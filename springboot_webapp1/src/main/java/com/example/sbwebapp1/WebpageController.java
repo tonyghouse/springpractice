@@ -11,5 +11,10 @@ public class WebpageController {
 		System.out.println("ecomoto hompage is started!");
 		return "index.html";
                      		
+	}@RequestMapping("ecomotojsp")
+	public String jsphomepage() {
+		System.out.println("ecomoto JSP hompage is started!");
+		return "home";
+                     		
 	}
 }

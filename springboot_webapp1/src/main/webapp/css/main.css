@@ -12,16 +12,17 @@ body{
 	width:1280px;
     margin:0px auto;
     font-family:'arial',sans-serif;
+    border:black 3px solid;
 }
 a{
     color:#f3f3f3;
     text-decoration:none;
 }
 .headbar{
-    font-size:3vw;
+    font-size:2rem;
     font-weight:bolder;
     margin:auto;
-    padding:10px;
+    padding:30px;
     background-color:#1b1b1b;
     color:#2ba837;
     display:flex;
@@ -38,7 +39,7 @@ a{
 .navbarcls{
     display:inline-block;
     margin-left:650px;
-    font-size:1.4vw;
+    font-size:1.5rem;
 
 }
 .navbarcls a{
@@ -64,11 +65,11 @@ a{
     background-color: #f3f3f3;
     color:#2ba837;
     font-size:3.5vw;
-    padding:20px;
     height:350px;
     width:100%;
     border:1px solid #2ba837;
     text-align:center;
+    margin:0px auto;
     line-height:100px;
 
 }
@@ -87,13 +88,12 @@ table{
 .sectioncls span{
     background-color: #2ba837;
     color:#f3f3f3;
-    font-size: 3.2vw;
+    font-size:2rem;
     text-align:center;
     display:inline-block;
     margin-top:10px;
     height:90px;
     width:100%;
-    padding:10px;
     padding-top:20px;
 
 }
