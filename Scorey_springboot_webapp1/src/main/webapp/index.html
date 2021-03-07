@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Scorey - Spring Boot webapp </title>
+<link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+<body>
+  <div class="headbar" id="home">
+    <header class="headercls">Scorey</header>
+    <nav class="navbarcls">
+        <a href="#home">Home</a>
+        <a href="#cricket">Cricket</a>
+        <a href="#soccer">Soccer</a>
+        <a href="#basketball">Basketball</a>
+    </nav>
+</div>
+  <div id="cricket">
+    <p class="category"> Cricket</p>
+    <iframe src="https://widget.crictimes.org/" style="width:100%;min-height: 500px;" frameborder="0" scrolling="yes"></iframe>
+  </div>
+  <div id="soccer">
+    <p class="category">Soccer</p>
+    <div id="aiscore-free"></div>
+    <script language="javascript">document.getElementById("aiscore-free").innerHTML="<iframe src='https://www.aiscore.com?width=1200&theme=blue'  height='500px' width='1200' scrolling='auto' border='0' frameborder='0'></iframe>";
+    </script><style>#aiscore-free{display:flex;justify-content:center;height:100%}</style>
+  </div>
+  <div id="basketball">
+    <p class="category">Basketball</p>
+    <div id="aiscore-free2"></div>
+    <script language="javascript">document.getElementById("aiscore-free2").innerHTML="<iframe src='https://www.aiscore.com/basketball?width=1200&theme=blue'  height='500px' width='1200' scrolling='auto' border='0' frameborder='0'></iframe>";</script>
+    <style>#aiscore-free2{display:flex;justify-content:center;height:100%}</style>
+  </div>
+  
+  
+</body>
+</html>
